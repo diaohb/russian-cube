@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/ru_cube.dir/ru_cube.cxx.o CMakeFiles/ru_cube.dir/src/Board.cxx.o CMakeFiles/ru_cube.dir/src/Game.cxx.o -o ../bin/ru_cube 
