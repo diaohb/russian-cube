@@ -18,12 +18,13 @@ find_package( ROOT COMPONENTS Matrix Hist RIO MathCore Physics)
 
 
 #set run time output directory as bin
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 #Add include directories
 include_directories(src)
 include_directories(include)
 
 #message("hey ${YAML_CPP_INCLUDE_DIR}")
-
-add_executable(ru_cube ru_cube.cxx src/Board.cxx src/Game.cxx)
+file(GLOB_RECURSE sources CONFIGURE_DEPENDS *.cxx *.h)
+add_executable(ru_cube ${sources})
+# add_executable(ru_cube ru_cube.cxx src/Board.cxx src/Game.cxx src/Pixel.cxx)
