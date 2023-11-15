@@ -1,0 +1,3 @@
+/home/diaohb/russian_cube/build/CMakeFiles/ru_cube.dir
+/home/diaohb/russian_cube/build/CMakeFiles/edit_cache.dir
+/home/diaohb/russian_cube/build/CMakeFiles/rebuild_cache.dir
